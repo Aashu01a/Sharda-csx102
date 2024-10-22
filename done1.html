@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Social Network</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MySocial</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <h2>Friends</h2>
+            <ul>
+                <li><a href="#">Piyush</a></li>
+                <li><a href="#">Devansh</a></li>
+                <li><a href="#">Aayush</a></li>
+                <li><a href="#">Uday</a></li>
+
+            </ul>
+        </aside>
+
+        <section class="feed">
+            <h2>News Feed</h2>
+            <article class="post">
+                <h3>Piyush</h3>
+                <p>Had a great day at the beach!</p>
+            </article>
+            <article class="post">
+                <h3>Devansh</h3>
+                <p>Loving the new café downtown!</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+<style>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.feed {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.post:hover {
+    background-color: #ddd;
+}
+.post {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+</style>
+
+</html>

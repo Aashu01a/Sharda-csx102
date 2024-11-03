@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doc</title>
+<style>
+    .animated-jett{
+        position: inherit;
+        width: 70px;
+        height: 50px;
+
+        /*jett*/
+        animation-name: jett;
+        animation-duration: 5ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+
+
+        @keyframes jett {
+            0%{
+                transform: translate(1000px,0);
+            }
+            25%{
+                transform: translate(500px,1000px);
+
+            }
+            50%{
+                transform: translate(1000px,0);
+
+            }
+            100%{
+                transform: translate(1000px,0);
+
+            }
+        }
+
+        
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .herdiv {
+        width: 85%;
+        margin: 20px auto;
+    
+    }
+    .jett {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .hisdiv {
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .search-bar {
+        display: flex; 
+    }
+    
+    .image-container {
+        margin: 10px; 
+        
+    }
+</style>
+</head>
+<body>
+    <div class="jett">
+    <img width="150" src="C:\Users\aashi\Downloads\running-jett.gif"
+                    alt="jett" title="jett">
+</div>
+<div class="hisdiv"> 
+    <audio controls>
+        <source src="C:\Users\aashi\Downloads\youtube-8_RoQY8DI5Q.mp4">
+    </audio>
+</div>
+    
+    
+    <div class="herdiv">
+
+    <video controls>
+        <source src="C:\Users\aashi\Downloads\80d273a4-2e40-4963-a5b6-8983aa1c7b78 (2).mp4">
+    </video>
+</div>
+</body>

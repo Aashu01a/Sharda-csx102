@@ -28,7 +28,9 @@
                 <li><a href="#">Piyush</a></li>
                 <li><a href="#">Devansh</a></li>
                 <li><a href="#">Aayush</a></li>
+                <li><a href="#">Aashish</a></li>
                 <li><a href="#">Uday</a></li>
+
 
             </ul>
         </aside>
@@ -38,6 +40,10 @@
             <article class="post">
                 <h3>Piyush</h3>
                 <p>Had a great day at the beach!</p>
+            </article>
+            <article class="post">
+                <h3>Aashish</h3>
+                <p>Owh this is amazing!!</p>
             </article>
             <article class="post">
                 <h3>Devansh</h3>
